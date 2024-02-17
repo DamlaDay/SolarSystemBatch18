@@ -3,9 +3,15 @@ public class SolarSystem {
 
 
         Base solar = new Base();
-        solar.Starts = "100";
-        solar.Moon = "4";
-        solar.Planets = "2";
+        solar.stars = "100";
+        solar.moon = "4";
+        solar.planets = "2";
+
+        FeatureSun xros=new FeatureSun();
+        xros.Color="pink";
+        xros.temp="23232323232323k";
+        xros.Size="545454545455miles";
+
 
     }
 
